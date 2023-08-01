@@ -24,11 +24,15 @@ let filter2 = arr.filter((item,index)=>{
     return item && item.age===26;
 })
 console.log(`check age =26 : `,filter2)
+
+
 //find
 
 let find = ages.find((item)=>item>16)// tra ve phan tu dau tien >16
 console.log(find)
 
+
+//find vd 2
 let find2 = arr.find((item,index)=>{
     return item && item.name ==='C' // tra ve phan tu dau tien co ten = 'C'
 })
